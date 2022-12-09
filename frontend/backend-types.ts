@@ -1191,12 +1191,12 @@ export interface components {
     "RuntimeConfig.UxConfig.UxConfigNavigation": {
       avatar?: components["schemas"]["RuntimeConfig.UxConfig.UxConfigNavigation.UxConfigNavigationAvatar"];
       settings?: components["schemas"]["RuntimeConfig.UxConfig.UxConfigNavigation.UxConfigNavigationSettings"];
-      about?: components["schemas"]["RuntimeConfig.UxConfig.UxConfigNavigation.UxConfigNavigationAbout"];
+      // about?: components["schemas"]["RuntimeConfig.UxConfig.UxConfigNavigation.UxConfigNavigationAbout"];
       logout?: components["schemas"]["RuntimeConfig.UxConfig.UxConfigNavigation.UxConfigNavigationLogout"];
     };
-    "RuntimeConfig.UxConfig.UxConfigNavigation.UxConfigNavigationAbout": {
-      enabled?: boolean;
-    };
+    // "RuntimeConfig.UxConfig.UxConfigNavigation.UxConfigNavigationAbout": {
+    //   enabled?: boolean;
+    // };
     "RuntimeConfig.UxConfig.UxConfigNavigation.UxConfigNavigationAvatar": {
       agent?: components["schemas"]["RuntimeConfig.UxConfig.UxConfigNavigation.UxConfigNavigationAvatar.UxConfigNavigationAvatarAgent"];
     };

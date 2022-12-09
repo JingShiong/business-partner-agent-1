@@ -153,7 +153,7 @@ public class RuntimeConfig implements ApplicationEventListener<StartupTasks.AcaP
 
             private UxConfigNavigationAvatar avatar;
             private UxConfigNavigationSettings settings;
-            private UxConfigNavigationAbout about;
+            // private UxConfigNavigationAbout about;
             private UxConfigNavigationLogout logout;
 
             @Data
@@ -190,12 +190,12 @@ public class RuntimeConfig implements ApplicationEventListener<StartupTasks.AcaP
                 private String location;
             }
 
-            @Data
-            @NoArgsConstructor
-            @ConfigurationProperties("about")
-            public static final class UxConfigNavigationAbout {
-                private Boolean enabled;
-            }
+            // @Data
+            // @NoArgsConstructor
+            // @ConfigurationProperties("about")
+            // public static final class UxConfigNavigationAbout {
+            //     private Boolean enabled;
+            // }
 
             @Data
             @NoArgsConstructor

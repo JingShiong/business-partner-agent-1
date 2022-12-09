@@ -5,7 +5,7 @@
 
  SPDX-License-Identifier: Apache-2.0
 -->
-<template>
+<!-- <template>
   <v-container>
     <p>
       {{ $t("view.about.textLicense") }}
@@ -75,4 +75,4 @@ export default {
     };
   },
 };
-</script>
+</script> -->

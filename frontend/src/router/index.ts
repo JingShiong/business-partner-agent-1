@@ -27,7 +27,7 @@ import TagManagement from "@/views/settings/TagManagement.vue";
 import SchemaSettings from "@/views/SchemaSettings.vue";
 import Schema from "@/views/Schema.vue";
 import AddSchema from "@/views/AddSchema.vue";
-import About from "@/views/About.vue";
+// import About from "@/views/About.vue";
 import CredentialManagement from "@/views/issuer/CredentialManagement.vue";
 import Notifications from "@/views/Notifications.vue";
 import ProofTemplates from "@/views/ProofTemplates.vue";
@@ -168,11 +168,11 @@ const routes: RouteConfig[] = [
     component: Schema,
     props: true,
   },
-  {
-    path: "/app/about",
-    name: "About",
-    component: About,
-  },
+  // {
+  //   path: "/app/about",
+  //   name: "About",
+  //   component: About,
+  // },
   {
     path: "/app/credential-management",
     name: "CredentialManagement",

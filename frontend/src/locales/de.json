@@ -45,7 +45,7 @@
     "dashboard": "Übersicht",
     "wallet": "Wallet",
     "settings": "Einstellungen",
-    "about": "Über",
+    // "about": "Über",
     "signout": "Abmelden",
     "requestPresentation": "Präsentationsanfrage"
   },
@@ -90,18 +90,7 @@
       "title": "Identität",
       "titleInfo": "Informationen zur Identität"
     },
-    "about": {
-      "title": "Über",
-      "textLicense": "Der Business Partner Agent ist ein Hyperledger Labs Open Source Projekt, lizenziert unter Apache 2.0.",
-      "textRepo": "Wenn Sie ein Problem finden, können Sie es unter folgender Adresse melden:",
-      "titleImages": "Grafiken",
-      "titlePackages": "Bibliotheken und Abhängigkeiten",
-      "illustrationsBy": "Illustrationen werden zur Verfügung gestellt von",
-      "logoBy": "Das Standardlogo wird bereitgestellt von",
-      "labelVersion": "Version",
-      "labelLicense": "Lizenz",
-      "labelLicenseText": "Lizenztext"
-    },
+
     "credential": {
       "title": "Details Berechtigungsnachweis",
       "eventSuccessUpdate": "Berechtigungsnachweis aktualisiert",

@@ -180,7 +180,7 @@
               <v-list-item-title>{{ $t("nav.settings") }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
-          <v-list-item
+          <!-- <v-list-item
             v-if="ux.navigation.about.enabled"
             bottom
             link
@@ -192,7 +192,7 @@
             <v-list-item-content>
               <v-list-item-title>{{ $t("nav.about") }}</v-list-item-title>
             </v-list-item-content>
-          </v-list-item>
+          </v-list-item> -->
           <v-list-item
             v-if="ux.navigation.logout.enabled"
             bottom
@@ -382,9 +382,9 @@ export default {
             "show-name": true,
           },
         },
-        about: {
-          enabled: true,
-        },
+        // about: {
+        //   enabled: true,
+        // },
         logout: {
           enabled: false,
         },

@@ -45,7 +45,7 @@
     "dashboard": "Pulpit",
     "wallet": "Portfel",
     "settings": "Ustawienia",
-    "about": "Informacje",
+   
     "signout": "Wyloguj się",
     "requestPresentation": "Wniosek o prezentację"
   },
@@ -90,18 +90,7 @@
       "title": "Identity",
       "titleInfo": "Identity Information"
     },
-    "about": {
-      "title": "About",
-      "textLicense": "The Business Partner Agent is a Hyperledger Labs Open Source Project under Apache 2.0 license.",
-      "textRepo": "If you find an issue you can file it at",
-      "titleImages": "Images",
-      "titlePackages": "Libraries and Packages",
-      "illustrationsBy": "Illustrations are provided by",
-      "logoBy": "The default logo is provided by",
-      "labelVersion": "Version",
-      "labelLicense": "License",
-      "labelLicenseText": "License Text"
-    },
+    
     "credential": {
       "title": "Credential Details",
       "eventSuccessUpdate": "Credential updated",
@@ -409,7 +398,6 @@
       "requestName": "Request Name",
       "requestContent": "Request Content",
       "issuer": "Issuer",
-      "about": "About",
       "dataFields": "Data fields",
       "restrictions": "Restrictions",
       "presentationValid": "Presentation is valid",

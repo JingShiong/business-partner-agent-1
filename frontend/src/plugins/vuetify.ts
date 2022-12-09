@@ -72,7 +72,6 @@ export default new Vuetify({
       notifications: mdiForumOutline,
       settings: mdiCog,
       signout: mdiLogout,
-      about: mdiInformationOutline,
       prev: mdiChevronLeft,
       next: mdiChevronRight,
       up: "fas fa-chevron-up",
