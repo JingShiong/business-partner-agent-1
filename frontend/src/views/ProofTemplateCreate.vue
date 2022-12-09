@@ -66,7 +66,7 @@
                           "
                           >$vuetify.icons.validationError</v-icon
                         >
-                        <v-icon
+                        <!-- <v-icon
                           v-show="
                             attributeGroup.ui
                               .selectedRestrictionsByTrustedIssuer.length === 0
@@ -74,7 +74,7 @@
                           right
                           color="info"
                           >$vuetify.icons.about</v-icon
-                        >
+                        > -->
                       </v-col>
                       <v-col
                         cols="6"

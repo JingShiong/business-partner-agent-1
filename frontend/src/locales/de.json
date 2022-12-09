@@ -399,7 +399,7 @@
       "requestName": "Name der Anfrage",
       "requestContent": "Inhalt der Anfrage",
       "issuer": "Aussteller",
-      "about": "Über",
+      // "about": "Über",
       "dataFields": "Datenfelder",
       "restrictions": "Einschränkungen",
       "presentationValid": "Präsentation ist gültig",
