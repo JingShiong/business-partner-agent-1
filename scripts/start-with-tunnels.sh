@@ -96,4 +96,4 @@ echo "Business Partner Agent Public URL: https://$BPA_HOST"
 echo "Public ACA-PY Endpoint: $ACAPY_ENDPOINT"
 
 # Start agent
-docker-compose -f $DOCKERFILE up
+docker-compose --profile second_bpa -f $DOCKERFILE up

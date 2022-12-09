@@ -1,0 +1,14 @@
+
+
+# region: <your-region> # e.g. us, eu
+authtoken: 2IU1ESCO3XHUdMrzSXW83rGXWU1_EGEnqr778SCHrs66sXiY
+
+tunnels:
+    businesspartner:
+      proto: http
+      addr: 8080
+      bind_tls: true
+    acapyendpoint:
+      proto: http
+      addr: 8030
+      bind_tls: true
